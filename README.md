@@ -26,7 +26,7 @@ Este projeto consiste num pipeline ELT (*Extract, Load, Transform*) completo foc
 ## 📊 Dashboard Interativo
 
 Aceda ao relatório no Looker Studio:
-🔗 **[Ver Dashboard no Looker Studio](COLE_AQUI_O_LINK_PUBLICO_DO_LOOKER_STUDIO)**
+🔗 **[Ver Dashboard no Looker Studio](https://datastudio.google.com/reporting/a15552a5-fe2c-4a52-b4b3-4039aec29a96)**
 
 ---
 
