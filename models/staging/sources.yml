@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: raw_data
+    database: eighth-radio-444101-c0
+    schema: raw_data
+    tables:
+      - name: raw_obras
+        description: "Tabela com informações cadastrais e orçamentos de obras civil."
+        columns:
+          - name: obra_id
+            tests:
+              - unique
+              - not_null
+      - name: raw_sensores_iot
+        description: "Registo de leituras temporais de sensores IoT nas obras."
+        columns:
+          - name: evento_id
+            tests:
+              - unique
+              - not_null
